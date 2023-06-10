@@ -8,5 +8,5 @@
     @PaginaExito
     Escenario:  Verificacion de los nombres de los prodcuto esocgidos correspondan a la informacion del carrito
 
-        Cuando miguel seleciona 1 productos con cantidaddes entre 1 y 4
+        Cuando miguel seleciona 3 productos con cantidaddes entre 1 y 4
         Entonces verifico que los nombre de los productos agregados sean iaguales a los nombres de los productos en el carrito
