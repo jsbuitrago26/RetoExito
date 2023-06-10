@@ -1,0 +1,21 @@
+
+
+java:S1104"]Make cantidadProductos a static final constant or non-public and provide accessors if needed.(¹ùú×ûÿÿÿÿ8øÂ–­Š1
+s
+java:S1104"WMake cantidadMin a static final constant or non-public and provide accessors if needed.(óº%8ùÂ–­Š1
+y
+java:S1104"WMake cantidadMax a static final constant or non-public and provide accessors if needed.(²¯Éùÿÿÿÿ8ùÂ–­Š1
+]	java:S125""<This block of commented-out lines of code should be removed.(”¼ıÿÿÿÿ8ëÃ–­Š1
+p
+java:S1128"NRemove this unused import 'net.serenitybdd.screenplay.abilities.BrowseTheWeb'.(æÙ›Íøÿÿÿÿ8îÃ–­Š1
+h
+java:S1128"FRemove this unused import 'net.serenitybdd.screenplay.actions.Scroll'.(ÆğŒÄşÿÿÿÿ8ïÃ–­Š1
+`
+java:S1128	"CRemove this unused import 'org.openqa.selenium.JavascriptExecutor'.(Ë‚«»8ñÃ–­Š1
+W
+java:S1128
+":Remove this unused import 'org.openqa.selenium.WebDriver'.(ñšÿÀ8óÃ–­Š1
+Z
+java:S1128"=Remove this unused import 'web.userinterfaces.PaginaJugutes'.(şÚã8õÃ–­Š1
+B
+java:S1128"%Remove this unused import 'java.awt'.(ï´µ©8÷Ã–­Š1
