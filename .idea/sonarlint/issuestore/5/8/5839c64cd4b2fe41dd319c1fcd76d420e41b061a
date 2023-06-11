@@ -1,0 +1,32 @@
+
+p
+java:S1104"UMake elementos a static final constant or non-public and provide accessors if needed.(ø°‚³üÿÿÿÿ
+s
+java:S1104"XMake elemntoFinal a static final constant or non-public and provide accessors if needed.(ïŒËàûÿÿÿÿ
+}
+java:S1104"[Make elementosPrecio a static final constant or non-public and provide accessors if needed.(ÈáŞ€ıÿÿÿÿ8–‰’…Š1
+p
+java:S1104"SMake anhadir a static final constant or non-public and provide accessors if needed.(²Š´ë8¾Ü¹ˆŠ1
+v
+java:S1104"ZMake agregarCarrito a static final constant or non-public and provide accessors if needed.(½öÛs8ú¯ÀˆŠ1
+J
+java:S1444"/Make this "public static elementos" field final(ø°‚³üÿÿÿÿ
+M
+java:S1444"2Make this "public static elemntoFinal" field final(ïŒËàûÿÿÿÿ
+W
+java:S1444"5Make this "public static elementosPrecio" field final(ÈáŞ€ıÿÿÿÿ8—‰’…Š1
+J
+java:S1444"-Make this "public static anhadir" field final(²Š´ë8¾Ü¹ˆŠ1
+P
+java:S1444"4Make this "public static agregarCarrito" field final(½öÛs8ı¯ÀˆŠ1
+O
+java:S1118
+":Add a private constructor to hide the implicit public one.(ŞÓ}
+9
+java:S1116"Remove this empty statement.(ãøñ8©‹ÁˆŠ1
+g
+java:S1128"JRemove this unused import 'net.serenitybdd.screenplay.targets.BaseTarget'.(«Ñ8à¢ÌˆŠ1
+]
+java:S1128";Remove this unused import 'org.openqa.selenium.WebElement'.(‰ïµ”şÿÿÿÿ8à¢ÌˆŠ1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8á¢ÌˆŠ1

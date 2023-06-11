@@ -44,7 +44,12 @@ public class Definitions {
     }
 
 
+    @Cuando("^El usuario seleccione los productos y sus cantidades$")
+    public void elUsuarioSeleccioneLosProductosYSusCantidades() {
 
+    }
 
-
+    @Entonces("^Se verifica que los precios de los productos en el carrito correspondan a los precios de los productos seleccionados$")
+    public void seVerificaQueLosPreciosDeLosProductosEnElCarritoCorrespondanALosPreciosDeLosProductosSeleccionados() {
+    }
 }

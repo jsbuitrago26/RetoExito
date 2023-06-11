@@ -1,0 +1,36 @@
+
+ˆ
+java:S1488"kImmediately return this expression instead of assigning it to the temporary variable "informacionProducto".(”åÇı8†¿€»Š1
+n
+java:S1104"QMake carro a static final constant or non-public and provide accessors if needed.(Ÿô˜©8î¡€»Š1
+o
+java:S1104	"RMake correo a static final constant or non-public and provide accessors if needed.(Àæ™È8î¡€»Š1
+{
+java:S1104"YMake BTN_confirmar a static final constant or non-public and provide accessors if needed.(˜ğÆûÿÿÿÿ8î¡€»Š1
+r
+java:S1104"PMake item a static final constant or non-public and provide accessors if needed.(ş×…Ÿıÿÿÿÿ8î¡€»Š1
+
+java:S1104"]Make complementoNombre a static final constant or non-public and provide accessors if needed.(Î˜Æˆùÿÿÿÿ8î¡€»Š1
+z
+java:S1104"]Make complementoPrecio a static final constant or non-public and provide accessors if needed.(²øëù8î¡€»Š1
+
+java:S1104"_Make complementoCantidad a static final constant or non-public and provide accessors if needed.(úÛ™°ıÿÿÿÿ8î¡€»Š1
+H
+java:S1444"+Make this "public static carro" field final(Ÿô˜©8î¡€»Š1
+I
+java:S1444	",Make this "public static correo" field final(Àæ™È8î¡€»Š1
+U
+java:S1444"3Make this "public static BTN_confirmar" field final(˜ğÆûÿÿÿÿ8î¡€»Š1
+L
+java:S1444"*Make this "public static item" field final(ş×…Ÿıÿÿÿÿ8î¡€»Š1
+Y
+java:S1444"7Make this "public static complementoNombre" field final(Î˜Æˆùÿÿÿÿ8ï¡€»Š1
+T
+java:S1444"7Make this "public static complementoPrecio" field final(²øëù8ï¡€»Š1
+[
+java:S1444"9Make this "public static complementoCantidad" field final(úÛ™°ıÿÿÿÿ8ï¡€»Š1
+z
+java:S3008"XRename this field "BTN_confirmar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ğÆûÿÿÿÿ8÷¡€»Š1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(©öÈóşÿÿÿÿ8ú¡€»Š1
+X	java:S125"<This block of commented-out lines of code should be removed.(¹ğÆ·8ş¡€»Š1

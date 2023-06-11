@@ -1,0 +1,18 @@
+
+]	java:S125'"<This block of commented-out lines of code should be removed.(Ö»ÿÖûÿÿÿÿ8Ïò’³Š1
+e
+java:S1128"CRemove this unused import 'net.serenitybdd.screenplay.Performable'.(ğ”„Îüÿÿÿÿ8Ğò’³Š1
+p
+java:S1128"NRemove this unused import 'net.serenitybdd.screenplay.abilities.BrowseTheWeb'.(æÙ›Íøÿÿÿÿ8Ğò’³Š1
+W
+java:S1128":Remove this unused import 'org.openqa.selenium.WebDriver'.(ñšÿÀ8Ğò’³Š1
+]
+java:S1128";Remove this unused import 'org.openqa.selenium.WebElement'.(‰ïµ”şÿÿÿÿ8Ğò’³Š1
+p
+java:S1128"NRemove this unused import 'org.openqa.selenium.support.ui.ExpectedConditions'.(û€Èéúÿÿÿÿ8Ñò’³Š1
+f
+java:S1128"IRemove this unused import 'org.openqa.selenium.support.ui.WebDriverWait'.(¥÷ó8Ñò’³Š1
+_
+java:S1128"=Remove this unused import 'web.interaction.EsperarElementos'.(ğØÅùúÿÿÿÿ8Ñò’³Š1
+h
+java:S1128"FRemove this unused import 'net.serenitybdd.screenplay.targets.Target'.(Ä¡í¹ÿÿÿÿÿ8Ñò’³Š1

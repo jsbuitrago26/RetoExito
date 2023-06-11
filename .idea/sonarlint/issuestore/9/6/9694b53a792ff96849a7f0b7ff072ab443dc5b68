@@ -1,0 +1,24 @@
+
+v
+java:S1104"YMake sumaProductos a static final constant or non-public and provide accessors if needed.(„Ξ†ώ8ής²1
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(¥΄«ϊϊÿÿÿÿ8ϋής²1
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(¶έβ²ÿÿÿÿÿ8ύής²1
+b
+java:S1117:"ERename "cantidadProductos" which hides the field declared at line 23.(Ηΰ8ÿής²1
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(ΔΉΔ›8ÿής²1
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(υ‹‡¦ώÿÿÿÿ8ίς²1
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(„‡ή©ϊÿÿÿÿ8‚ίς²1
+b
+java:S1128"ERemove this unused import 'net.serenitybdd.screenplay.actions.Enter'.(—Χ—λ8ƒίς²1
+h
+java:S1128	"FRemove this unused import 'net.serenitybdd.screenplay.actions.Scroll'.(ΖπΔώÿÿÿÿ8ƒίς²1
+h
+java:S1128"FRemove this unused import 'net.serenitybdd.screenplay.targets.Target'.(Δ΅νΉÿÿÿÿÿ8ƒίς²1
+R
+java:S1128"5Remove this unused import 'web.interaction.Cantidad'.(ΤΌÒ8ƒίς²1
+Y
+java:S1128"=Remove this unused import 'web.userinterfaces.PaginaCarrito'.(ΖΑe8„ίς²1
+Q
+java:S1068"/Remove this unused "cantidadMin" private field.(‘ƒΎψψÿÿÿÿ8„ίς²1
+L
+java:S1068"/Remove this unused "cantidadMax" private field.(ΛΕ½”8„ίς²1

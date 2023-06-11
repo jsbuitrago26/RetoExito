@@ -14,6 +14,12 @@ public class VerificarNombre implements Question <Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
         List<Object> elementosTotal=new ArrayList<>();
-        return null;
+        List<Object> elementosTotalCarrito=new ArrayList<>();
+
+
+        elementosTotal=actor.recall("listaNombres");
+        elementosTotalCarrito=actor.recall("informacionDelCarrito");
+        List<Object> nombresCarrito = (List<Object>) elementosTotalCarrito.get(0);
+        return elementosTotal.containsAll(nombresCarrito);
     }
 }

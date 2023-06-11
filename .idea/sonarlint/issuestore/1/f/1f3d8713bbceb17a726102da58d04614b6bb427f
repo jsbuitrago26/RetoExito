@@ -1,0 +1,7 @@
+
+Z	java:S1066"9Replace this use of System.out or System.err by a logger.(³»ùœùÿÿÿÿ8û©Ú½Š1
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(Ž…áÜúÿÿÿÿ8þ©Ú½Š1
+U	java:S106C"9Replace this use of System.out or System.err by a logger.(Î‰Ôæ8þ©Ú½Š1
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(Áû§žüÿÿÿÿ8€ªÚ½Š1
+j
+java:S1128"HRemove this unused import 'net.serenitybdd.core.pages.WebElementFacade'.(á¢èÞúÿÿÿÿ8€ªÚ½Š1
