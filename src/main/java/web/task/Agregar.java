@@ -46,7 +46,7 @@ public class Agregar implements Task {
             int producto=listaElementos.get(i);
             int cantidades=cantidad.get(i);
              sumaProductos += cantidades;
-            System.out.println(producto+ "indice seleccionado");
+            System.out.println("indice seleccionado"+producto);
             WebElementFacade elemento=agregar.get(producto);
 
 
@@ -56,11 +56,11 @@ public class Agregar implements Task {
 
             EsperarElementos.tiempo(2000);
             List<WebElementFacade> cantidadProductos=PaginaJugutes.anhadir.resolveAllFor(actor);
-            System.out.println("cantidad producots"+cantidadProductos.size());
+            System.out.println("cantidad producots: "+cantidadProductos.size());
             WebElementFacade cuantia=cantidadProductos.get(i);
+            System.out.println("cantidad de producto para el elemento "+i+cantidades);
             for(int j=1; j<cantidades;j++){
-                System.out.println("ciclo"+cantidades);
-                actor.attemptsTo(
+                        actor.attemptsTo(
                         Click.on(cuantia)
                 );
             }

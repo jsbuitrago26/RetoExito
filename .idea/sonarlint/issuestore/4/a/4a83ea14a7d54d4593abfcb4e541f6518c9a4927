@@ -1,13 +1,12 @@
 
-r	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ð†£œüÿÿÿÿ8äÈ®­Š1
-U	java:S106)"9Replace this use of System.out or System.err by a logger.(ùÕÇ„8™É®­Š1
-W	java:S125'"<This block of commented-out lines of code should be removed.(—ö”)8™É®­Š1
+r	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ð†£œüÿÿÿÿ8„•Ã‹1
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(ùÕÇ„8¶•Ã‹1
+W	java:S125)"<This block of commented-out lines of code should be removed.(—ö”)8¶•Ã‹1
 :
-java:S2119+"Save and re-use this "Random".(¼ÝÅf8œÉ®­Š1
-Z	java:S106;"9Replace this use of System.out or System.err by a logger.(´÷ºŸÿÿÿÿÿ8ŸÉ®­Š1
-U	java:S106U"9Replace this use of System.out or System.err by a logger.(ˆ‘°Ú8£É®­Š1
-U	java:S106W"9Replace this use of System.out or System.err by a logger.(¬É”Â8£É®­Š1
+java:S2119-"Save and re-use this "Random".(¼ÝÅf8¸•Ã‹1
+U	java:S106c"9Replace this use of System.out or System.err by a logger.(ˆ‘°Ú8Á•Ã‹1
+U	java:S106e"9Replace this use of System.out or System.err by a logger.(¬É”Â8Á•Ã‹1
 e
-java:S1128"CRemove this unused import 'net.serenitybdd.screenplay.Performable'.(ð”„Îüÿÿÿÿ8Œ˜¯­Š1
+java:S1128"CRemove this unused import 'net.serenitybdd.screenplay.Performable'.(ð”„Îüÿÿÿÿ8Â•Ã‹1
 E
-java:S1068"(Remove this unused "fila" private field.(óÕ¢¾8£É®­Š1
+java:S1068"(Remove this unused "fila" private field.(óÕ¢¾8Ã•Ã‹1

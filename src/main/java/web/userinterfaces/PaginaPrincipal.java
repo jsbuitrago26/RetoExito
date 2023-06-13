@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 public class PaginaPrincipal {
     public static Target SeleccionSubcategoria=Target.the("Selecciona la subcategoria").
-            located(By.id("Categorías-nivel2-Juguetes"));
+            located(By.id("Categorías-nivel3-Peluches"));
 
     public static Target BTN_menu=Target.the("Ingresar al menu").
             located(By.id("Trazado_7822"));

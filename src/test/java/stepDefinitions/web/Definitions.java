@@ -9,6 +9,7 @@ import cucumber.api.java.es.Y;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import web.questions.VerificarNombre;
+import web.questions.VerificarPrecios;
 import web.task.*;
 
 import static com.google.common.base.Predicates.equalTo;
@@ -44,12 +45,8 @@ public class Definitions {
     }
 
 
-    @Cuando("^El usuario seleccione los productos y sus cantidades$")
-    public void elUsuarioSeleccioneLosProductosYSusCantidades() {
-
-    }
-
     @Entonces("^Se verifica que los precios de los productos en el carrito correspondan a los precios de los productos seleccionados$")
     public void seVerificaQueLosPreciosDeLosProductosEnElCarritoCorrespondanALosPreciosDeLosProductosSeleccionados() {
+        OnStage.theActorInTheSpotlight().should(seeThat(VerificarPrecios.precios(),equalTo(true)));
     }
 }

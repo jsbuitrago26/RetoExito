@@ -8,6 +8,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.WebElement;
 import web.userinterfaces.PaginaJugutes;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -35,6 +36,7 @@ public class RandomArreglo implements Interaction {
     public <T extends Actor> void performAs(T actor) {
         List<WebElementFacade> elementos= arrayElementos.resolveAllFor(actor);
         List<WebElementFacade> elemntosPrecios=PaginaJugutes.elementosPrecio.resolveAllFor(actor);
+        List<Object> elementosPrecioTotal=new ArrayList<>();
         int cantidadElemento=elementos.size();
        // List<WebElementFacade> prueba =arrayElementos.resolveAllFor(actor);
 
@@ -48,20 +50,19 @@ public class RandomArreglo implements Interaction {
         for (int i =0;i<cantidadProductos;i++){
             int numeroAleatorio;
 
-            int cantidadseleccionada=random.nextInt((cantidadMax-cantidadMin)+1)+cantidadMin;
-            cantidad.add(cantidadseleccionada);
             do{
                 numeroAleatorio=random.nextInt(cantidadElemento);
 
             }while (indiceSeleccion.contains(numeroAleatorio));
             indiceSeleccion.add(numeroAleatorio);
 
-            System.out.println("Numero aleatorio"+numeroAleatorio);
-
         }
 
         Collections.sort(indiceSeleccion);
         for (int j=0;j<cantidadProductos;j++){
+            int cantidadseleccionada=random.nextInt((cantidadMax-cantidadMin)+1)+cantidadMin;
+            cantidad.add(cantidadseleccionada);
+
             int organizar = indiceSeleccion.get(j);
             WebElement elemento=elementos.get(organizar);
             String nombreElemento=elemento.getText();
@@ -70,11 +71,24 @@ public class RandomArreglo implements Interaction {
             WebElement elemtoPrecio=elemntosPrecios.get(organizar);
             String precioElemento=elemtoPrecio.getText();
             elemtosConPrecio.add(precioElemento);
+
+            String precioFiltrado=precioElemento.replace("$ ","");
+
+            double precioFiltradoEntero=Double.parseDouble(precioFiltrado);
+            precioFiltradoEntero *=cantidadseleccionada;
+            DecimalFormat formato=new DecimalFormat("$ #,##0.000");
+            String totalPrecio=formato.format(precioFiltradoEntero);
+            totalPrecio=totalPrecio.replace(",",".");
+
+            elementosPrecioTotal.add(totalPrecio);
         }
+
         List<Object> listaPrincipal=new ArrayList<>();
         listaPrincipal.add(indiceSeleccion);
         listaPrincipal.add(Elementos);
         listaPrincipal.add(elemtosConPrecio);
+        listaPrincipal.add(elementosPrecioTotal);
+        listaPrincipal.add(cantidad);
 
         actor.remember("listaElementos",indiceSeleccion);
         actor.remember("listaNombres",Elementos);
